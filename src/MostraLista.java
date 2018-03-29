@@ -7,13 +7,12 @@ public class MostraLista {
 	public static void main(String[] args) {
 		
 		Lista listaUm = new Lista();
-		listaUm.primeiroNode("Vini");
-		listaUm.addTail("Vini 2", listaUm);
-		listaUm.addTail("Vini 3", listaUm);
-		
-		System.out.println(listaUm.getTail());
-		System.out.println(listaUm.getTotalDeNodes());
-		System.out.println(listaUm.listarTodosNodes(listaUm));
+		listaUm.addTail("Vini");
+		listaUm.addTail("Vini2");
+		//listaUm.addTail("Vini3");
+		//System.out.println(listaUm.getHead().getElemento());
+		//System.out.println(listaUm.getTail().getElemento());
+		listaUm.mostraLista();
 		
 		// TODO Auto-generated method stub
 
